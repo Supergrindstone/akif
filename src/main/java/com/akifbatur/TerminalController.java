@@ -62,6 +62,7 @@ public class TerminalController implements Serializable
 		}
 		else //Illegal command
 		{
+			System.out.println("illegal command");
 			//komut hakikaten çalışsın mı? o zaman burayı uncomment...
 //			StringBuffer output = new StringBuffer();
 //			 
